@@ -7,7 +7,7 @@ const banner = document.querySelector('.app__image')
 const titulo = document.querySelector('.app__title')
 const botoes = document.querySelectorAll('.app__card-button')
 const startPauseBt = document.querySelector('#start-pause')
-
+const iniciarOuPausarBt = document.querySelector('#start-pause span')
 const musicaFocoInput = document.querySelector('#alternar-musica')
 const musica = new Audio('./sons/luna-rise-part-one.mp3')
 const audioPlay = new Audio('./sons/play.wav')
@@ -106,10 +106,12 @@ function iniciarOuPauzar() {
     }
     audioPlay.play()
     intervaloId = setInterval(contagemRegressiva, 1000)
+    iniciarOuPausarBt.textContent = "Pausar"
 }
 
 function zerar() {
     clearInterval(intervaloId) 
+    iniciarOuPausarBt.textContent = "Começar"
     intervaloId = null
 }
 
