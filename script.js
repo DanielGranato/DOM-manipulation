@@ -91,9 +91,13 @@ const contagemRegressiva = () => {
     console.log('Temporizador: ' + tempoDecorridoEmSegundos)
 }
 
-startPauseBt.addEventListener('click', iniciar)
+startPauseBt.addEventListener('click', iniciarOuPauzar)
 
-function iniciar() {
+function iniciarOuPauzar() {
+    if(intervaloId){
+        zerar()
+        return
+    }
     intervaloId = setInterval(contagemRegressiva, 1000)
 }
 
