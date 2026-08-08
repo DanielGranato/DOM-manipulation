@@ -34,7 +34,7 @@ The project explores DOM manipulation, event handling, dynamic interface updates
 
 ## 🚀 Live Demo
 
-https://github.com/DanielGranato/DOM-manipulation/deployments
+https://danielgranato.github.io/DOM-manipulation/
 
 ## 📚 What I Learned
 
