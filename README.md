@@ -58,12 +58,15 @@ https://danielgranato.github.io/DOM-manipulation/
 
 One of the main concepts explored in this project is the interaction between JavaScript and the DOM.
 
-JavaScript is responsible for detecting user actions, updating the application state, changing the page content, modifying CSS classes and attributes, and controlling the timer.
+JavaScript is responsible for detecting user actions, updating the application state, changing page content, modifying CSS classes and attributes, and controlling the timer.
 
-The countdown is handled through `setInterval()`, which repeatedly calls the countdown function every second:
+### Countdown Timer
+
+The countdown is controlled using `setInterval()`, which executes the countdown function every second:
 
 ```js
-intervaloId = setInterval(contagemRegressiva, 1000)
+intervaloId = setInterval(contagemRegressiva, 1000)```
+
 
 ## 👨‍💻 Author
 
