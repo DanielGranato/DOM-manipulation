@@ -64,8 +64,7 @@ JavaScript is responsible for detecting user actions, updating the application s
 
 The countdown is controlled using `setInterval()`, which executes the countdown function every second:
 
-```js
-intervaloId = setInterval(contagemRegressiva, 1000)```
+intervaloId = setInterval(contagemRegressiva, 1000)
 
 
 ## 👨‍💻 Author
